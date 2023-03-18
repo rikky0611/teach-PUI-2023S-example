@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+
+<head>
+  <title>Product Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="./js/rollsData.js"></script>
+  <script defer src="./js/cart.js"></script>
+
+
+</head>
+  
+  <body>
+    <!--Navigation Bar with logo-->
+    <div class="navibartitle">
+        <a href=index.html><img id="logo" src="logo-01.svg" alt="bun bun shop logo"></a>
+        <div class = "nav-bar">
+              
+            <h2 class="product"><a href=index.html>PRODUCTS</a></h2>
+            <h2 class="product"><a href=Cart.html>CART</a></h2>
+        </div>
+    </div>
+      
+    <!--line-->
+    <hr class="line">
+
+<!--cart page start here-->
+<div class="rightAligned">
+    <h1>Shopping Cart</h1>
+
+    <!--original cinnamon roll-->
+    <div>
+        <div id="row-cartItem">
+            <template id="rolltemplate">
+                <div class="horizontalGroup">
+                    <img class="CartPicture" src="PUI HW1 images/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll">
+                    <div class="Cart">              
+                        <p class="rollName">Original Cinnamon Roll</p>
+                        <p class="glazingName">Glazing: Keep original</p>
+                         <p class="pack-size">Pack Size: 1</p>
+                    </div>
+
+                    <p class="Cartprice">$ 2.49</p>
+                    <div class="row">
+                        <p class="remove">Remove</p>
+                    </div>
+
+
+                </div>
+            </template>
+        </div>
+    </div>
+    
+
+<!--Line here-->
+    <hr class="cartline">
+<!--Total-->
+<div class="TotalPrice">
+    <p class="Total">Total</p>
+    <p class="endprice">$ 29.94</p>
+</div>
+    <div class = "checkoutbutton2">
+        <button class="checkout-butt2">
+            Checkout
+        </button>
+    </div>
+</div>
